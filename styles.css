@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.player {
+  max-width: 750px;
+  margin: 50px auto;
+}
+
+.player__video {
+  width: 100%;
+}
+
+.progress {
+  background: #eee;
+  height: 10px;
+  cursor: pointer;
+}
+
+.progress__filled {
+  width: 0%;
+  height: 100%;
+  background: #ffc600;
+}
+
+.player__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+button {
+  cursor: pointer;
+}
